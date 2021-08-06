@@ -1,0 +1,75 @@
+.phones-book {
+  margin-top: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+ }
+.phones-book table {
+  background-color: #eeeeee;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.phones-book th, .phones-book td{
+ padding: 6px 10px;
+ }
+ .danger, .primary, .secondary{
+   border-radius: 6px;
+   border-color: transparent;
+   min-width: 50px;
+   padding: 3px 5px;
+ }
+ .danger {
+   background-color: red;
+   color: white;
+ }
+ .secondary {
+   background-color: lightskyblue;
+ }
+ .primary{
+  background-color: lightseagreen;
+  color: white;
+  margin-right: 4px;
+ }
+ .danger:hover{
+   background-color: darkred;
+ }
+ .primary:hover{
+   background-color: seagreen;
+ }
+ .secondary:hover {
+   background-color:deepskyblue;
+ }
+ .form{
+   margin-top: 10px;
+   padding: 10px;
+   background-color: #eeeeee;
+   border-radius: 5px;
+ }
+ .form-input{
+   padding:  6px 2px;
+   margin-right: 3px;
+   border-color:#a4cef8;
+   border-radius: 4px;
+   outline: none;
+ }
+ .form-input:focus, .form-input:active{
+  outline: #56abff;
+ }
+ .close {
+   background-color: #919191;
+   color: #fff;
+   margin-left: 3px;
+    border-radius: 6px;
+    padding: 3px 5px;
+    
+ }
+ .close:hover{
+   background-color: #5e5e5e;
+ }
+ .error h2{
+  color: red;
+ }
